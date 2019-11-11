@@ -1,8 +1,8 @@
-package io.javabrains.courseapi.topic;
+package io.javabrains.courseapi.course;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface TopicRepository extends CrudRepository<Topic,String> {
+public interface CourseRepository extends CrudRepository<Course,String> {
     //getAllTopics()
     //getTopic(String id)
     //updateTopic(Course t)

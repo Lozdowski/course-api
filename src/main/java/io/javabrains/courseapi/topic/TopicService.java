@@ -38,7 +38,7 @@ public class TopicService {
     public void updateTopic(Topic topic){
         /*
         for(int i =0;i<topics.size();i++){
-            Topic t = topics.get(i);
+            Course t = topics.get(i);
             if(t.getId().equals(id)){
                 topics.set(i, topic);
                 return;
@@ -49,7 +49,7 @@ public class TopicService {
     }
     public void deleteTopic(String id){
         /*for(int i = 0;i<topics.size();i++){
-            Topic t = topics.get(i);
+            Course t = topics.get(i);
             if(t.getId().equals(id)){
                 topics.remove(t);
             }
